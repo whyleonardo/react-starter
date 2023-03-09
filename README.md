@@ -1,4 +1,4 @@
-# Boilerplate React com Vite e TypeScript
+# Boilerplate Vite com React e TypeScript
 
 Este é um boilerplate básico para criar aplicações React com Vite e TypeScript. Ele inclui as configurações básicas para rodar uma aplicação React moderna com a ajuda de ferramentas como ESLint e Prettier para garantir que o código seja limpo e padronizado. 
 
