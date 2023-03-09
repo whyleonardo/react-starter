@@ -10,8 +10,9 @@ Antes de usar este boilerplate, certifique-se de ter o Node.js instalado na sua 
 
 1. Clone este repositório.
 2. Navegue para a pasta do projeto e execute `npm install` ou `yarn` para instalar as dependências.
-3. Execute `npm run dev` ou `yarn dev` para iniciar o servidor local.
-4. Acesse a aplicação em `http://localhost:3000`.
+3. Execute `npm run prepare` ou `yarn prepare` para instalar o husky.
+4. Execute `npm run dev` ou `yarn dev` para iniciar o servidor local.
+5. Acesse a aplicação em `http://localhost:3000`.
 
 ## Libs utilizadas
 
@@ -40,7 +41,3 @@ Se você deseja contribuir com este boilerplate, por favor siga as seguintes eta
 3. Faça as suas alterações e comite-as: `git commit -m "Adiciona nova funcionalidade"`.
 4. Envie suas alterações para o seu fork: `git push origin feature/nome-da-funcionalidade`.
 5. Crie um novo pull request. 
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
