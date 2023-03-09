@@ -11,10 +11,10 @@
 	},
 	"dependencies": {
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"zod": "^3.21.4"
 	},
 	"devDependencies": {
-		"lint-staged": "^13.1.2",
 		"@commitlint/config-conventional": "^17.4.4",
 		"@types/node": "^18.14.6",
 		"@types/react": "^18.0.27",
@@ -29,6 +29,7 @@
 		"eslint-plugin-react": "^7.32.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"husky": "^8.0.3",
+		"lint-staged": "^13.1.2",
 		"prettier": "2.8.4",
 		"typescript": "^4.9.3",
 		"vite": "^4.1.0"
