@@ -10,8 +10,9 @@ Antes de usar este boilerplate, certifique-se de ter o Node.js instalado na sua 
 
 1. Clone este repositório.
 2. Navegue para a pasta do projeto e execute `npm install` ou `yarn` para instalar as dependências.
-3. Execute `npm run dev` ou `yarn dev` para iniciar o servidor local.
-4. Acesse a aplicação em `http://localhost:3000`.
+3. Execute `npm run prepare` ou `yarn prepare` para instalar o husky.
+4. Execute `npm run dev` ou `yarn dev` para iniciar o servidor local.
+5. Acesse a aplicação em `http://localhost:3000`.
 
 ## Libs utilizadas
 
