@@ -41,7 +41,3 @@ Se você deseja contribuir com este boilerplate, por favor siga as seguintes eta
 3. Faça as suas alterações e comite-as: `git commit -m "Adiciona nova funcionalidade"`.
 4. Envie suas alterações para o seu fork: `git push origin feature/nome-da-funcionalidade`.
 5. Crie um novo pull request. 
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
