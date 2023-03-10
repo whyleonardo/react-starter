@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import { App } from '@App'
+import { App } from './App'
+
+import { ChakraProvider } from '@/providers/ChakraProvider'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 	<React.StrictMode>
-		<App />
+		<ChakraProvider>
+			<App />
+		</ChakraProvider>
 	</React.StrictMode>
 )

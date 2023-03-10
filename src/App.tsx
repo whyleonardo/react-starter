@@ -1,7 +1,10 @@
+import { Button, Center, useColorMode } from '@chakra-ui/react'
+
 export const App = () => {
+	const { toggleColorMode } = useColorMode()
 	return (
-		<div>
-			<p>Hello World</p>
-		</div>
+		<Center h="100vh">
+			<Button onClick={toggleColorMode}>Change Theme</Button>
+		</Center>
 	)
 }
