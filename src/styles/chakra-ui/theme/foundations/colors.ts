@@ -1,5 +1,7 @@
-export const colors = {
-	brand: {
-		100: 'yellow'
-	}
+const customColors = {
+  brand: {
+    100: 'yellow'
+  }
 }
+
+export default customColors
