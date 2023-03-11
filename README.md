@@ -1,4 +1,4 @@
-# Vite + React + TypeScript
+# Vite + React + TypeScript ⚡⚡
 
 Este é um boilerplate básico para criar aplicações React com Vite e TypeScript. Ele inclui as configurações básicas para rodar uma aplicação React moderna com a ajuda de algumas das ferramentas mais utilizadas pela comunidade.
 
@@ -37,8 +37,8 @@ Antes de usar este boilerplate, certifique-se de ter o Node.js instalado na sua 
 
 ## Roadmap
 
-- [ ] [Vitest](https://vitest.netlify.app/)
-- [ ] [Storybook](https://storybook.js.org/)
+- [ ] 🧑‍🔬 [Vitest](https://vitest.netlify.app/)
+- [ ] 📚 [Storybook](https://storybook.js.org/)
 
 ## Como contribuir
 
