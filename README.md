@@ -35,11 +35,27 @@ This is a basic boilerplate for creating React applications with Vite and TypeSc
 Before using this boilerplate, make sure you have Node.js installed on your machine.
 
 ## How to Use
-1. Clone this repository.
-2. Navigate to the project folder and run `npm install` or `yarn` to install the dependencies.
-3. Run `npm run prepare` or `yarn prepare` to install Husky.
-4. Run `npm run dev` or `yarn dev` to start the local server.
-5. Access the application at http://localhost:3000.
+
+1. Clone this repository with:
+
+```npx degit whyleonardo/vite-react my-react-app```
+
+2. Navigate to the project folder and run:
+
+```npm install or yarn install```
+
+3. To install Husky run:
+
+```npm run prepare or yarn prepare```
+
+4. Run: 
+
+```npm run dev or yarn dev```
+
+
+5. Access http://localhost:3000.
+
+And, enjoy !
 
 ## How to Contribute
 If you want to contribute to this boilerplate, please follow these steps:
