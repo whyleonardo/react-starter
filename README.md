@@ -1,6 +1,6 @@
-# Boilerplate Vite com React e TypeScript
+# Vite + React + TypeScript
 
-Este é um boilerplate básico para criar aplicações React com Vite e TypeScript. Ele inclui as configurações básicas para rodar uma aplicação React moderna com a ajuda de ferramentas como ESLint e Prettier para garantir que o código seja limpo e padronizado.
+Este é um boilerplate básico para criar aplicações React com Vite e TypeScript. Ele inclui as configurações básicas para rodar uma aplicação React moderna com a ajuda de algumas das ferramentas mais utilizadas pela comunidade.
 
 ## Pré-requisitos
 
@@ -14,22 +14,30 @@ Antes de usar este boilerplate, certifique-se de ter o Node.js instalado na sua 
 4. Execute `npm run dev` ou `yarn dev` para iniciar o servidor local.
 5. Acesse a aplicação em `http://localhost:3000`.
 
-## Libs utilizadas
+## Features 
 
-As seguintes libs já estão incluídas no projeto:
+- ⚡️ [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html)
+- 🎨 [Chakra UI](https://chakra-ui.com/)
+- 📡 [Axios](https://axios-http.com/)
+- 🧪 [Zod](https://github.com/vriad/zod)
+- 🛣 [React Router](https://reactrouter.com/)
+- 🗂 Absolute imports
 
-- [x] [ESLint](https://eslint.org/)
-- [x] [Prettier](https://prettier.io/)
-- [x] [Chakra UI](https://chakra-ui.com/)
-- [x] [Zod](https://github.com/vriad/zod)
-- [x] [Husky](https://typicode.github.io/husky/#/)
-- [x] [Commitlint](https://commitlint.js.org/)
+## Coding Style
 
-As seguintes libs serão implementadas:
+- 🚦 [ESLint](https://eslint.org/) - configured for React/Hooks & TypeScript
+-💄 [Prettier](https://prettier.io/)
+
+## Dev tools
+
+- 🦾 [TypeScript](https://www.typescriptlang.org/)
+- 🔍 [Commitlint](https://commitlint.js.org/)
+- 🐶 [Husky](https://typicode.github.io/husky/#/)
+
+
+## Roadmap
 
 - [ ] [Vitest](https://vitest.netlify.app/)
-- [ ] [React Router](https://reactrouter.com/)
-- [ ] [Axios](https://axios-http.com/)
 - [ ] [Storybook](https://storybook.js.org/)
 
 ## Como contribuir
