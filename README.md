@@ -4,16 +4,6 @@
 
 This is a basic boilerplate for creating React applications with Vite and TypeScript. It includes the basic configurations to run a modern React application with the help of some of the most widely used tools in the community.
 
-## Prerequisites
-Before using this boilerplate, make sure you have Node.js installed on your machine.
-
-## How to Use
-1. Clone this repository.
-2. Navigate to the project folder and run `npm install` or `yarn` to install the dependencies.
-3. Run `npm run prepare` or `yarn prepare` to install Husky.
-4. Run `npm run dev` or `yarn dev` to start the local server.
-5. Access the application at http://localhost:3000.
-
 ## Features 
 
 - ⚡️ [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html) - A popular JavaScript library for building user interfaces.
@@ -39,6 +29,16 @@ Before using this boilerplate, make sure you have Node.js installed on your mach
 
 - [ ] 🧑‍🔬 [Vitest](https://vitest.netlify.app/)
 - [ ] 📚 [Storybook](https://storybook.js.org/)
+
+## Prerequisites
+Before using this boilerplate, make sure you have Node.js installed on your machine.
+
+## How to Use
+1. Clone this repository.
+2. Navigate to the project folder and run `npm install` or `yarn` to install the dependencies.
+3. Run `npm run prepare` or `yarn prepare` to install Husky.
+4. Run `npm run dev` or `yarn dev` to start the local server.
+5. Access the application at http://localhost:3000.
 
 ## How to Contribute
 If you want to contribute to this boilerplate, please follow these steps:
