@@ -3103,6 +3103,11 @@ react-helmet@^6.1.0:
     react-fast-compare "^3.1.1"
     react-side-effect "^2.1.0"
 
+react-hook-form@3.10.4:
+  version "3.10.4"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-3.10.4.tgz#281dfaeca640d0762ff7d7c41cd6ec737137a1e2"
+  integrity sha512-Mb+cDHPIXZRx8WYF3MeKk/G0QpYWx6bbUYHGQZbVyf+qOkzJvVjAivNWatZEbwDXDiZnTOxMMX9iNzb4JSfHHg==
+
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
