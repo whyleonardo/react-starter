@@ -1,43 +1,50 @@
-# Boilerplate Vite com React e TypeScript
+# ⚡Vite + React + TypeScript⚡
 
-Este é um boilerplate básico para criar aplicações React com Vite e TypeScript. Ele inclui as configurações básicas para rodar uma aplicação React moderna com a ajuda de ferramentas como ESLint e Prettier para garantir que o código seja limpo e padronizado.
+# Boilerplate React with Vite and TypeScript
 
-## Pré-requisitos
+This is a basic boilerplate for creating React applications with Vite and TypeScript. It includes the basic configurations to run a modern React application with the help of some of the most widely used tools in the community.
 
-Antes de usar este boilerplate, certifique-se de ter o Node.js instalado na sua máquina.
+## Features 
 
-## Como usar
+- ⚡️ [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html) - A popular JavaScript library for building user interfaces.
+- 🎨 [Chakra UI](https://chakra-ui.com/) - A component library for building accessible and customizable React applications.
+- 📡 [Axios](https://axios-http.com/) - A promise-based HTTP client for making API requests.
+- 🧪 [Zod](https://github.com/vriad/zod) - A TypeScript-first schema validation library.
+- 🛣 [React Router](https://reactrouter.com/) - A popular library for handling routing in React applications.
+- 🗂 [Absolute imports](https://www.phind.com/search?cache=048fb075-b514-4ab5-ba86-e324d044d954) - Allow you to import modules using an absolute path instead of a relative path, making your code more maintainable and easier to read.
 
-1. Clone este repositório.
-2. Navegue para a pasta do projeto e execute `npm install` ou `yarn` para instalar as dependências.
-3. Execute `npm run prepare` ou `yarn prepare` para instalar o husky.
-4. Execute `npm run dev` ou `yarn dev` para iniciar o servidor local.
-5. Acesse a aplicação em `http://localhost:3000`.
+## Coding Style
 
-## Libs utilizadas
+- 🚦 [ESLint](https://eslint.org/) - A popular tool for statically analyzing code to find and fix common issues.
+- 💄 [Prettier](https://prettier.io/) -  A code formatter that helps keep code consistent and easy to read.
 
-As seguintes libs já estão incluídas no projeto:
+## Dev tools
 
-- [x] [ESLint](https://eslint.org/)
-- [x] [Prettier](https://prettier.io/)
-- [x] [Chakra UI](https://chakra-ui.com/)
-- [x] [Zod](https://github.com/vriad/zod)
-- [x] [Husky](https://typicode.github.io/husky/#/)
-- [x] [Commitlint](https://commitlint.js.org/)
+- 🦾 [TypeScript](https://www.typescriptlang.org/) - A superset of JavaScript that adds static typing and other features to the language.
+- 🔍 [Commitlint](https://commitlint.js.org/) - A tool for enforcing consistent commit message style and formatting.
+- 🐶 [Husky](https://typicode.github.io/husky/#/) - A tool for easily adding Git hooks to your project.
 
-As seguintes libs serão implementadas:
 
-- [ ] [Vitest](https://vitest.netlify.app/)
-- [ ] [React Router](https://reactrouter.com/)
-- [ ] [Axios](https://axios-http.com/)
-- [ ] [Storybook](https://storybook.js.org/)
+## Roadmap
 
-## Como contribuir
+- [ ] 🧑‍🔬 [Vitest](https://vitest.netlify.app/)
+- [ ] 📚 [Storybook](https://storybook.js.org/)
 
-Se você deseja contribuir com este boilerplate, por favor siga as seguintes etapas:
+## Prerequisites
+Before using this boilerplate, make sure you have Node.js installed on your machine.
 
-1. Crie um fork deste repositório.
-2. Crie uma nova branch com o nome da sua funcionalidade: `git checkout -b feature/nome-da-funcionalidade`.
-3. Faça as suas alterações e comite-as: `git commit -m "Adiciona nova funcionalidade"`.
-4. Envie suas alterações para o seu fork: `git push origin feature/nome-da-funcionalidade`.
-5. Crie um novo pull request.
+## How to Use
+1. Clone this repository.
+2. Navigate to the project folder and run `npm install` or `yarn` to install the dependencies.
+3. Run `npm run prepare` or `yarn prepare` to install Husky.
+4. Run `npm run dev` or `yarn dev` to start the local server.
+5. Access the application at http://localhost:3000.
+
+## How to Contribute
+If you want to contribute to this boilerplate, please follow these steps:
+
+1. Fork this repository.
+2. Create a new branch with the name of your feature: `git checkout -b feature/feature-name`.
+3. Make your changes and commit them: `git commit -m "Adds new feature"`.
+4. Push your changes to your fork: `git push origin feature/feature-name`.
+5. Create a new pull request.
