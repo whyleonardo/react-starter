@@ -1,4 +1,4 @@
-import Button from './components/buttons'
+import Button from './components/button'
 
 import colors from './foundations/colors'
 

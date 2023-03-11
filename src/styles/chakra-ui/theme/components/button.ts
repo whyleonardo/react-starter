@@ -4,7 +4,7 @@ import chakraTheme from '@chakra-ui/theme'
 const { Button } = chakraTheme.components
 
 const ThemedButton: ComponentStyleConfig = {
-	...Button
+  ...Button
 }
 
 export default ThemedButton
