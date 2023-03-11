@@ -25,7 +25,7 @@ Antes de usar este boilerplate, certifique-se de ter o Node.js instalado na sua 
 
 ## Coding Style
 
-- 🚦 [ESLint](https://eslint.org/) - configured for React/Hooks & TypeScript
+-🚦 [ESLint](https://eslint.org/) - configured for React/Hooks & TypeScript
 -💄 [Prettier](https://prettier.io/)
 
 ## Dev tools
