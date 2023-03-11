@@ -30,7 +30,7 @@
 		"@types/react-dom": "^18.0.10",
 		"@types/react-helmet": "^6.1.6",
 		"@vitejs/plugin-react-swc": "^3.0.0",
-		"@whyleonardo/eslint-config": "^1.5.0",
+		"@whyleonardo/eslint-config": "^1.7.0",
 		"eslint": "^8.35.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.1.2",
