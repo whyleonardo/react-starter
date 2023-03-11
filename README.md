@@ -22,7 +22,7 @@ Before using this boilerplate, make sure you have Node.js installed on your mach
 - 🧪 [Zod](https://github.com/vriad/zod) - A TypeScript-first schema validation library.
 - 🛣 [React Router](https://reactrouter.com/) - A popular library for handling routing in React applications.
 - 🗂 [Absolute imports](https://www.phind.com/search?cache=048fb075-b514-4ab5-ba86-e324d044d954) - Allow you to import modules using an absolute path instead of a relative path, making your code more maintainable and easier to read.
-- 
+
 ## Coding Style
 
 - 🚦 [ESLint](https://eslint.org/) - A popular tool for statically analyzing code to find and fix common issues.
