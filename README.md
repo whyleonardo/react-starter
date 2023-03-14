@@ -39,7 +39,7 @@ Before using this boilerplate, make sure you have Node.js installed on your mach
 
 1. Clone this repository with:
 
-```npx degit whyleonardo/vite-react <my-app>```
+```npx degit whyleonardo/react-starter <my-app>```
 
 2. Navigate to the project folder and run:
 
