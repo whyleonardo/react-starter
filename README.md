@@ -56,12 +56,3 @@ Before using this boilerplate, make sure you have Node.js installed on your mach
 5. Access http://localhost:3000.
 
 And, enjoy!
-
-## How to Contribute
-If you want to contribute to this boilerplate, please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch with the name of your feature: `git checkout -b feature/feature-name`.
-3. Make your changes and commit them: `git commit -m "Adds new feature"`.
-4. Push your changes to your fork: `git push origin feature/feature-name`.
-5. Create a new pull request.
