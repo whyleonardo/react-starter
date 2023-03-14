@@ -39,7 +39,7 @@ Before using this boilerplate, make sure you have Node.js installed on your mach
 
 1. Clone this repository with:
 
-```npx degit whyleonardo/vite-react my-react-app```
+```npx degit whyleonardo/vite-react <my-app>```
 
 2. Navigate to the project folder and run:
 
@@ -53,10 +53,9 @@ Before using this boilerplate, make sure you have Node.js installed on your mach
 
 ```npm run dev or yarn dev```
 
-
 5. Access http://localhost:3000.
 
-And, enjoy !
+And, enjoy!
 
 ## How to Contribute
 If you want to contribute to this boilerplate, please follow these steps:
