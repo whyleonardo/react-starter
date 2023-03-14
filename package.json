@@ -2,12 +2,13 @@
 	"name": "react-vite",
 	"private": true,
 	"version": "1.0.0",
-	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"theme": "chakra-cli tokens src/styles/chakra-ui/theme/index.ts",
+		"theme:watch": "chakra-cli tokens src/styles/chakra-ui/theme/index.ts"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.5.1",
@@ -20,10 +21,12 @@
 		"react-dom": "^18.2.0",
 		"react-helmet": "^6.1.0",
 		"react-hook-form": "^7.43.5",
+		"react-icons": "^4.8.0",
 		"react-router-dom": "^6.9.0",
 		"zod": "^3.21.4"
 	},
 	"devDependencies": {
+		"@chakra-ui/cli": "^2.3.0",
 		"@commitlint/config-conventional": "^17.4.4",
 		"@types/node": "^18.14.6",
 		"@types/react": "^18.0.27",
