@@ -31,6 +31,7 @@ This is a basic boilerplate for creating React applications with Vite and TypeSc
 
 - [ ] 🧑‍🔬 [Vitest](https://vitest.netlify.app/)
 - [ ] 📚 [Storybook](https://storybook.js.org/)
+- [ ] 📲 [PWA Suport](https://vite-pwa-org.netlify.app/)
 
 ## Prerequisites
 Before using this boilerplate, make sure you have Node.js installed on your machine.
