@@ -5,23 +5,6 @@ import { Button, HStack, Code, Text, Icon, useToast } from '@chakra-ui/react'
 
 const TEXT_COMMAND = 'npx degit whyleonardo/react-starter my-app'
 
-const Toast = () => {
-	return (
-		<HStack
-			justifyContent="space-between"
-			borderBottom="2px"
-			borderColor="brand.400"
-			bg="gray.900"
-			p="4"
-			color="white"
-			rounded="5px"
-		>
-			<Text fontSize="lg">Copied!</Text>
-			<Icon as={BiCheckCircle} w="1.5rem" h="1.5rem" />
-		</HStack>
-	)
-}
-
 export const CopyButton = () => {
 	const [isCopied, setIsCopied] = useState(false)
 
@@ -49,5 +32,22 @@ export const CopyButton = () => {
 
 			<Icon as={!isCopied ? BiCopy : BiCheckCircle} w="1.3rem" h="1.3rem" />
 		</Button>
+	)
+}
+
+const Toast = () => {
+	return (
+		<HStack
+			justifyContent="space-between"
+			borderBottom="2px"
+			borderColor="brand.400"
+			bg="gray.900"
+			p="4"
+			color="white"
+			rounded="5px"
+		>
+			<Text fontSize="lg">Copied!</Text>
+			<Icon as={BiCheckCircle} w="1.5rem" h="1.5rem" />
+		</HStack>
 	)
 }
