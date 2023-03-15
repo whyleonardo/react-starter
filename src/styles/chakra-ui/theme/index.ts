@@ -1,6 +1,8 @@
 import Button from './components/button'
+import Card from './components/card'
 import Code from './components/code'
 import Heading from './components/heading'
+import Tooltip from './components/tooltip'
 
 import colors from './foundations/colors'
 import { fonts } from './foundations/fonts'
@@ -22,7 +24,9 @@ const overrides = {
 	components: {
 		Button,
 		Heading,
-		Code
+		Code,
+		Card,
+		Tooltip
 	}
 }
 

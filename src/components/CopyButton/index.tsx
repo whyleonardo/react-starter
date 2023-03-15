@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { BiCopy, BiCheckCircle } from 'react-icons/bi'
 
+import { useColorOpacity } from '@/hooks/useColorOpacity'
 import { Button, HStack, Code, Text, Icon, useToast } from '@chakra-ui/react'
 
 const TEXT_COMMAND = 'npx degit whyleonardo/react-starter my-app'
@@ -15,15 +16,26 @@ export const CopyButton = () => {
 			setIsCopied(true)
 			toast({
 				position: 'top',
-				duration: 3000,
+				duration: 1500,
 				render: () => <Toast />
 			})
 		})
 	}
 
 	return (
-		<Button onClick={handleCopyText} display="flex" gap="2" p="6">
-			<Code fontWeight="400" fontSize="xs" bg="none">
+		<Button
+			onClick={handleCopyText}
+			bgColor="gray.900"
+			display="flex"
+			gap="2"
+			p="6"
+			_hover={{ bgColor: useColorOpacity('gray', 900, 70) }}
+		>
+			<Code
+				fontWeight="400"
+				fontSize={{ base: 'xs', sm: 'sm', md: 'md', lg: 'lg' }}
+				bg="none"
+			>
 				<Text as="span" color="gray.500">
 					$
 				</Text>{' '}
