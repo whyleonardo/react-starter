@@ -6,12 +6,14 @@ This is a basic boilerplate for creating React applications with Vite and TypeSc
 
 ## Features 
 
-- ⚡️ [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html) - A popular JavaScript library for building user interfaces.
-- 🎨 [Chakra UI](https://chakra-ui.com/) - A component library for building accessible and customizable React applications.
-- 📡 [Axios](https://axios-http.com/) - A promise-based HTTP client for making API requests.
-- 🧪 [Zod](https://github.com/vriad/zod) - A TypeScript-first schema validation library.
-- 🛣  [React Router](https://reactrouter.com/) - A popular library for handling routing in React applications.
-- 👑 [React-Helmet](https://github.com/nfl/react-helmet) - A library that allows you to manage the meta information of your React application.
+- ⚡️ [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html) - Popular JavaScript library for building user interfaces.
+- 🎨 [Chakra UI](https://chakra-ui.com/) - Component library for building accessible and customizable React applications.
+- 📡 [Axios](https://axios-http.com/) - Promise-based HTTP client for making API requests.
+- 🧪 [Zod](https://github.com/vriad/zod) - TypeScript-first schema validation library.
+- 🛣  [React Router](https://reactrouter.com/) - Popular library for handling routing in React applications.
+- 🪝 [React Hook Form](https://react-hook-form.com/) - Form management library for React with a focus on performance and simplicity
+- ✨ [Polished](https://polished.js.org/) - Provides a set of utilities for common CSS tasks, such as color manipulation, typography, math functions, and more. 
+- 👑 [React-Helmet](https://github.com/nfl/react-helmet) - Library that allows you to manage the meta information of your React application.
 - 🤖 [Intelligent](https://github.com/renovatebot/renovate) - Integrated RenovateBot to help you maintain the dependent version.
 - 🗂 [Absolute imports](https://www.phind.com/search?cache=048fb075-b514-4ab5-ba86-e324d044d954) - Allow you to import modules using an absolute path instead of a relative path, making your code more maintainable and easier to read.
 
