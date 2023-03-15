@@ -105,92 +105,362 @@ export const libs: Lib[] = [
 
 export const carouselLibs: CarouselLib[] = [
 	{
-		id: '1b2f6d0f-731e-4c17-9e3e-3f1a16a7c87d',
+		id: crypto.randomUUID(),
 		name: 'React',
 		icon: SiReact
 	},
 	{
-		id: 'a8100c0e-125f-465c-bd11-ba813b87a582',
+		id: crypto.randomUUID(),
 		name: 'Chakra UI',
 		icon: SiChakraui
 	},
 	{
-		id: '5f5e11fb-8dc3-4559-9e0b-1b56c8b076e7',
+		id: crypto.randomUUID(),
 		name: 'Axios',
 		icon: SiAxios
 	},
 	{
-		id: 'f09b80f5-c7a4-4d4f-a6b4-6b64f356b20b',
+		id: crypto.randomUUID(),
 		name: 'React Router',
 		icon: SiReactrouter
 	},
 	{
-		id: '0c38a7f3-ec3d-4d0c-b1f3-6d623c2852e1',
+		id: crypto.randomUUID(),
 		name: 'ESLint',
 		icon: SiEslint
 	},
 	{
-		id: '69f4d072-4a7a-4fcb-98e9-fc307d56e7f2',
+		id: crypto.randomUUID(),
 		name: 'Prettier',
 		icon: SiPrettier
 	},
 	{
-		id: '9d19fc7e-8bbf-4c3b-a5c5-0b0c5b5a35db',
+		id: crypto.randomUUID(),
 		name: 'TypeScript',
 		icon: SiTypescript
 	},
 	{
-		id: '5d5bb5f5-aa75-4975-96fa-2f27d58e1381',
+		id: crypto.randomUUID(),
 		name: 'Vite',
 		icon: SiVite
 	},
 	{
-		id: '968aa5d1-9264-4b20-bf91-d17ba48cb3eb',
+		id: crypto.randomUUID(),
 		name: 'React Hook Form',
 		icon: SiReacthookform
 	},
 	{
-		id: '8b54a0d1-6de1-476f-a32f-68a6d0f6b857',
+		id: crypto.randomUUID(),
 		name: 'React',
 		icon: SiReact
 	},
 	{
-		id: 'b8aebd6f-3836-4431-b05e-2c69c42e3b7a',
+		id: crypto.randomUUID(),
 		name: 'Chakra UI',
 		icon: SiChakraui
 	},
 	{
-		id: '5d5c5cd5-3190-4e16-a54a-3f4efdd4f47c',
+		id: crypto.randomUUID(),
 		name: 'Axios',
 		icon: SiAxios
 	},
 	{
-		id: 'f73de1af-531f-4789-b05e-39c78e0d7e72',
+		id: crypto.randomUUID(),
 		name: 'React Router',
 		icon: SiReactrouter
 	},
 	{
-		id: 'f19b647a-7c2f-44f2-b299-df55bcf1e073',
+		id: crypto.randomUUID(),
 		name: 'ESLint',
 		icon: SiEslint
 	},
 	{
-		id: 'd14f798e-6a09-42c2-a8e3-3a2b7aee85b3',
+		id: crypto.randomUUID(),
 		name: 'Prettier',
 		icon: SiPrettier
 	},
 	{
-		id: '7b536a84-60ba',
+		id: crypto.randomUUID(),
 		name: 'TypeScript',
 		icon: SiTypescript
 	},
 	{
-		id: '5d5bb5f5-aa75-4975-96fa-2f27d582e1381',
+		id: crypto.randomUUID(),
 		name: 'Vite',
 		icon: SiVite
 	},
 	{
-		id: '968aa5d1-9264-4b20-bf91-d147ba48cb3eb',
+		id: crypto.randomUUID(),
+		name: 'React Hook Form',
+		icon: SiReacthookform
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React',
+		icon: SiReact
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Chakra UI',
+		icon: SiChakraui
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Axios',
+		icon: SiAxios
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Router',
+		icon: SiReactrouter
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'ESLint',
+		icon: SiEslint
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Prettier',
+		icon: SiPrettier
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'TypeScript',
+		icon: SiTypescript
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Vite',
+		icon: SiVite
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Hook Form',
+		icon: SiReacthookform
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React',
+		icon: SiReact
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Chakra UI',
+		icon: SiChakraui
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Axios',
+		icon: SiAxios
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Router',
+		icon: SiReactrouter
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'ESLint',
+		icon: SiEslint
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Prettier',
+		icon: SiPrettier
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'TypeScript',
+		icon: SiTypescript
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Vite',
+		icon: SiVite
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Hook Form',
+		icon: SiReacthookform
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React',
+		icon: SiReact
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Chakra UI',
+		icon: SiChakraui
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Axios',
+		icon: SiAxios
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Router',
+		icon: SiReactrouter
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'ESLint',
+		icon: SiEslint
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Prettier',
+		icon: SiPrettier
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'TypeScript',
+		icon: SiTypescript
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Vite',
+		icon: SiVite
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Hook Form',
+		icon: SiReacthookform
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React',
+		icon: SiReact
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Chakra UI',
+		icon: SiChakraui
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Axios',
+		icon: SiAxios
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Router',
+		icon: SiReactrouter
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'ESLint',
+		icon: SiEslint
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Prettier',
+		icon: SiPrettier
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'TypeScript',
+		icon: SiTypescript
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Vite',
+		icon: SiVite
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Hook Form',
+		icon: SiReacthookform
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React',
+		icon: SiReact
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Chakra UI',
+		icon: SiChakraui
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Axios',
+		icon: SiAxios
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Router',
+		icon: SiReactrouter
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'ESLint',
+		icon: SiEslint
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Prettier',
+		icon: SiPrettier
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'TypeScript',
+		icon: SiTypescript
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Vite',
+		icon: SiVite
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React',
+		icon: SiReact
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Chakra UI',
+		icon: SiChakraui
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Axios',
+		icon: SiAxios
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Router',
+		icon: SiReactrouter
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'ESLint',
+		icon: SiEslint
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Prettier',
+		icon: SiPrettier
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'TypeScript',
+		icon: SiTypescript
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'Vite',
+		icon: SiVite
+	},
+	{
+		id: crypto.randomUUID(),
+		name: 'React Hook Form',
+		icon: SiReacthookform
+	},
+	{
+		id: crypto.randomUUID(),
 		name: 'React Hook Form',
 		icon: SiReacthookform
 	}

@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import { SiGithub, SiLinkedin } from 'react-icons/si'
 
@@ -18,8 +19,12 @@ import {
 	Icon,
 	HStack
 } from '@chakra-ui/react'
+import AOS from 'aos'
 
 export const App = () => {
+	useEffect(() => {
+		AOS.init()
+	}, [])
 	return (
 		<>
 			<Helmet title="React + Vite + Chakra UI" />
@@ -30,11 +35,17 @@ export const App = () => {
 				pt="10"
 				pb="4"
 				px={{ base: '6', xl: '8' }}
-				overflowX="hidden"
+				overflow="hidden"
 				position="relative"
 				zIndex="0"
 			>
-				<Stack as="header" gap="4" position="relative" zIndex="1">
+				<Stack
+					data-aos="fade-down"
+					as="header"
+					gap="4"
+					position="relative"
+					zIndex="1"
+				>
 					<Heading as="h3" fontSize="3xl">
 						<Text
 							as="span"
@@ -137,23 +148,25 @@ export const App = () => {
 					<CarouselLibs libs={carouselLibs} />
 					<Grid
 						gap="2rem"
-						templateColumns={[
-							'repeat(1, 1fr)',
-							'repeat(1, 1fr)',
-							'repeat(2, 1fr)'
-						]}
-						templateRows={[
-							'repeat(1, 1fr)',
-							'repeat(1, 1fr)',
-							'repeat(2, 1fr)'
-						]}
+						templateColumns={{
+							base: 'repeat(1, 1fr)',
+							lg: 'repeat(2, 1fr)'
+						}}
+						templateRows={{
+							base: 'repeat(1, 1fr)',
+							lg: 'repeat(2, 1fr)'
+						}}
 					>
 						<LibCard libs={libs} />
 					</Grid>
 				</Stack>
 
-				<Stack as="footer" alignItems="end">
-					<HStack flexDir="row" alignItems="center" gap="4">
+				<Stack as="footer" alignItems={{ base: 'center', md: 'end' }}>
+					<HStack
+						flexDir={{ base: 'column', md: 'row' }}
+						alignItems="center"
+						gap="4"
+					>
 						<HStack flexDir="row" alignItems="center">
 							<Link target="_blank" href="https://linkedin.com/in/christianlsb">
 								<Icon
