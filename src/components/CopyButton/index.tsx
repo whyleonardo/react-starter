@@ -28,12 +28,19 @@ export const CopyButton = () => {
 			bgColor="gray.900"
 			display="flex"
 			gap="2"
-			p="6"
+			py="6"
 			_hover={{ bgColor: useColorOpacity('gray', 900, 70) }}
 		>
 			<Code
 				fontWeight="400"
-				fontSize={{ base: 'xs', sm: 'sm', md: 'md', lg: 'lg' }}
+				fontSize={{
+					base: '0.65rem',
+					xsm: '0.55rem',
+					sm: '0.70rem',
+					xmd: '1rem',
+					md: 'md',
+					lg: 'lg'
+				}}
 				bg="none"
 			>
 				<Text as="span" color="gray.500">

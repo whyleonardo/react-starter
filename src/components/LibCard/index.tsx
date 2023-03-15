@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+
 import { Lib } from '@/data/libs/types'
 import {
 	Card,
@@ -10,21 +12,30 @@ import {
 	Link,
 	Text
 } from '@chakra-ui/react'
+import AOS from 'aos'
 
 interface LibCardProps {
 	libs: Lib[]
 }
 
 export const LibCard = ({ libs }: LibCardProps) => {
+	useEffect(() => {
+		AOS.init()
+	}, [])
+
+	const isPair = (number: number) => number % 2 == 0
+
+	console.log(isPair(1))
 	return (
 		<>
-			{libs.map((lib) => (
+			{libs.map((lib, idx) => (
 				<Card
-					key={lib.name}
+					key={lib.id}
 					bgColor="gray.800"
 					p="2"
 					boxShadow="dark-lg"
 					position="relative"
+					data-aos={isPair(idx) ? 'fade-right' : 'fade-left'}
 				>
 					<CardHeader>
 						<Heading fontSize="2xl">

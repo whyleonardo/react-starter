@@ -16,7 +16,7 @@ export const CarouselLibs = ({ libs }: CarouselLibsProps) => {
 	return (
 		<HStack animation={animation} gap="2">
 			{libs.map((lib) => (
-				<Tooltip label={lib.name} aria-label={lib.name} key={lib.name}>
+				<Tooltip label={lib.name} aria-label={lib.name} key={lib.id}>
 					<span>
 						<Icon
 							as={lib.icon}
