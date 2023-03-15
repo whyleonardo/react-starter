@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useMemo } from 'react'
 
 import { Lib } from '@/data/libs/types'
 import {
@@ -17,15 +17,13 @@ import AOS from 'aos'
 interface LibCardProps {
 	libs: Lib[]
 }
+const isPair = (number: number) => number % 2 == 0
 
 export const LibCard = ({ libs }: LibCardProps) => {
 	useEffect(() => {
 		AOS.init()
 	}, [])
 
-	const isPair = (number: number) => number % 2 == 0
-
-	console.log(isPair(1))
 	return (
 		<>
 			{libs.map((lib, idx) => (
