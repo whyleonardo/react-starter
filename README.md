@@ -2,6 +2,9 @@
 
 ![Banner](public/banner.png)
 
+
+- [Live Demo](https://whyleo-boilerplate.vercel.app)
+
 This is a basic boilerplate for creating React applications with Vite and TypeScript. It includes the basic configurations to run a modern React application with the help of some of the most widely used tools in the community.
 
 ## Features 
