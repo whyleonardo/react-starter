@@ -24,6 +24,7 @@
 		"react-hook-form": "^7.43.5",
 		"react-icons": "^4.8.0",
 		"react-router-dom": "^6.9.0",
+		"vite-plugin-pwa": "^0.14.4",
 		"zod": "^3.21.4"
 	},
 	"devDependencies": {
