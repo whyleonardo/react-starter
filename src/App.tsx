@@ -30,6 +30,7 @@ export const App = () => {
 			<Helmet title="React + Vite + Chakra UI" />
 
 			<Stack
+				test-id="app"
 				bgGradient="linear(to-b, #0A0229,#08243A )"
 				gap="2rem"
 				pt="10"
